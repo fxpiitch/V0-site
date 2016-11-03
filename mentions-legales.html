@@ -25,7 +25,7 @@
 </head> 
 
 <body class="blog-single-page">   
-   <!-- ******HEADER****** --> 
+    <!-- ******HEADER****** --> 
     <header id="header" class="header">  
         <div class="container">      
                 <a href="index.html"><img class="logo-1" src="assets/images/logo-werecruit-horizontal-RGB-coul-invert.svg" alt=""></a>
@@ -40,16 +40,16 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="nav-item"><a href="index.html">Accueil</a></li>
-                        <!--li class="nav-item"><a href="stories.html">Entreprises</a></li-->
-                        <li class="nav-item"><a  href="#support-section">Tarifs</a></li>
-                        <li class="nav-item"><a href="blog.html">Blog</a></li>
-                         <li class="nav-item"><a href="contact.html">Contact</a></li>                       
-                        <li class="nav-item"><a href="https://app.werecruit.io/" >Se Connecter</a></li>
+                        <li class="active nav-item"><a href="features.html">Fonctionnalités</a></li>
+                        <li class="nav-item"><a  href="index.html#support-section">Tarifs</a></li>
+                        <!-- li class="nav-item"><a href="blog.html">Blog</a></li-->
+                         <li class="nav-item"><a href="contact.html">Contact</a></li>                        
+                        <li class="nav-item"><a class="btn-signup" href="https://app.werecruit.io/" >Se Connecter</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </nav><!--//main-nav-->                     
         </div><!--//container-->
-    </header><!--//header-->         
+    </header><!--//header-->               
     
     
     <div class="post-single-block" id="post-single-block">
@@ -123,9 +123,9 @@
         <ul class="links">
           <li><span><a href="index.html">We Recruit © 2016</a></span></li>
           <li class="link">
-            <a href="about.html" style="margin-left: 10px;margin-right: 10px">Qui sommes-nous ?</a>
-            <a href="about.html" style="margin-right: 10px">Recrutement</a>
-            <a href="blog.html" style="margin-right: 10px">Blog</a>
+            <a href="qui-sommes-nous.html" style="margin-left: 10px;margin-right: 10px">Qui sommes-nous ?</a>
+            <a href="qui-sommes-nous.html" style="margin-right: 10px">Recrutement</a>
+            <!--a href="blog.html" style="margin-right: 10px">Blog</a-->
             <a href="mentions-legales.html" style="margin-right: 10px" class="iubenda-nostyle no-brand iub-legal-only iubenda-embed" title="Privacy Policy">Mentions Légales</a>
             <a href="mailto:bonjour@werecruit.fr" style="margin-right: 10px">Contactez-nous</a>
           </li>
@@ -160,6 +160,13 @@
     </div>
     </footer>
 
+  <!-- Intercom -->
+    <script>
+        window.intercomSettings = {
+            app_id: "siko5iuc"
+        };
+    </script>
+    <script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', intercomSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i; function l() { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/siko5iuc'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()</script>
 
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-1.12.4.min.js"></script>
