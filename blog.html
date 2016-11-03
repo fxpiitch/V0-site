@@ -3,7 +3,8 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive website template for products</title>
+    <title>Blog - Tout sur le recrutement, multidiffusion et les sites gratuits</title>
+     <meta name="description" content="Actualités sur le recrutement, la multidiffusion, la marque employeur, les innovations et les sites gratuits">
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,15 +21,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles-wr.css">
 </head> 
 
 <body class="blog-page">   
     <!-- ******HEADER****** --> 
     <header id="header" class="header">  
         <div class="container">      
-            <h1 class="logo">
-                <a href="index.html"><img src="assets/images/logo.svg" alt=""><span class="text">Startup Kit</span></a>
-            </h1><!--//logo-->
+                <a href="index.html"><img class="logo-1" src="assets/images/logo-werecruit-horizontal-RGB-coul-invert.svg" alt=""></a>
             <nav class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -39,25 +39,12 @@
                 </div><!--//navbar-header-->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item"><a href="index.html">Home</a></li>
-                        <li class="nav-item"><a href="features.html">Features</a></li>
-                        <li class="nav-item"><a href="stories.html">Stories</a></li>
-                        <li class="nav-item"><a href="pricing.html">Pricing</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">More <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="story-single.html">Customer Story Single</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-single.html">Blog Single</a></li>
-                                <li><a href="support.html">Support Center</a></li>   
-                                <li><a href="career.html">Career</a></li> 
-                                <li><a href="job-single.html">Job Single</a></li> 
-                                <li><a href="contact.html">Contact</a></li>                    
-                            </ul>                            
-                        </li><!--//dropdown-->                         
-                        <li class="nav-item"><a href="#" class="login-trigger" data-toggle="modal" data-target="#login-modal">Log in</a></li>
-                        <li class="nav-item nav-item-cta last"><a class="btn-signup" href="#" data-toggle="modal" data-target="#signup-modal">Sign Up</a></li>
+                        <li class="active nav-item"><a href="index.html">Accueil</a></li>
+                        <!--li class="nav-item"><a href="stories.html">Entreprises</a></li-->
+                        <li class="nav-item"><a  href="index.html#support-section">Tarifs</a></li>
+                        <li class="nav-item"><a href="blog.html">Blog</a></li>
+                         <li class="nav-item"><a href="contact.html">Contact</a></li>                         
+                        <li class="nav-item"><a href="https://app.werecruit.io/" >Se Connecter</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </nav><!--//main-nav-->                     
@@ -70,15 +57,38 @@
             <div class="hero-mask-gradient"></div>
         </div><!--//hero-wrapper--> 
         <div class="container heading-content">                
-            <h2 class="headline">NOS DENRIERS ARTICLES</h2>
+            <h2 class="headline">NOS DERNIERS ARTICLES</h2>
             <div class="intro">Le Blog spécialiste du recrutement !<br> N'oubliez pas de vous abonner à notre newsletter pour ne pas manquer les dernières innovations en recrutement. </div>
+            
+
+
+        <div class="container text-center">
+        <div id="mc_embed_signup">
+            <div id="mc_embed_signup_scroll">
+            <form action="//werecruit.us13.list-manage.com/subscribe/post?u=30ceb4e46a8e39992905276b6&amp;id=3b686f7b45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate subscribe-form form-inline" target="_blank" novalidate>
+                <div style="padding-top:30px;" class="form-group">
+                 <input style="width:300px;" type="email" value="" name="EMAIL" class="email form-control email-field" id="mce-EMAIL" placeholder="Entrer votre adresse email" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_30ceb4e46a8e39992905276b6_3b686f7b45" tabindex="-1" value="">
+                    </div>
+                    <input style="height:45px;" type="submit" value="Envoyer" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                </div>
+               </form>
+            </div>
+        </div>
+        </div>
+ 
+
+
+
             <div class="actions">
                  <a class="scrollto-no-offset" href="#posts-promo-block"></a>
                  <a class="scrollto-no-offset" href="#posts-promo-block"><img src="assets/images/arrow-icon.svg" alt=""></a>
             </div><!--//actions-->
         </div><!--//container-->
     </section><!--//heading-section-->
-   
+
     <div class="posts-block text-center" id="posts-block">
         <div class="container">
             <!-- Nav tabs -->
@@ -171,18 +181,7 @@
                             </div><!--//post-intro-->
                         </div><!--//post-content-->
                     </div><!--//post-4-->
-                    
-                    <div class="pagination-container text-center">
-                        <ul class="pagination">
-                            <li class="disabled"><a href="#">«</a></li>
-                            <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">»</a></li>
-                        </ul><!--//pagination-->
-                    </div>
+
                     
                 </div><!--//tab-pane-1-->
                 
@@ -348,86 +347,76 @@
         </div><!--//container-->
     </div><!--//posts-block-->
     
+    <!-- Begin MailChimp Signup Form -->
+
     <div class="blog-signup-block">
         <div class="container text-center">
-            <h3 class="block-heading">Get free resources for your startup weekly</h3>
-            <div class="block-intro">Subscribe to our newsletter to be the first to get the freebies.</div>
-            <form class="subscribe-form form-inline" novalidate="novalidate">
+        <div id="mc_embed_signup">
+            <div id="mc_embed_signup_scroll">
+             <h3 class="block-heading">Recevez nos dernières actualités </h3>
+            <div class="block-intro">Recrutement, marque employeur & présentations d'entreprises<br>seulement des contenus de qualité</div>
+            <form action="//werecruit.us13.list-manage.com/subscribe/post?u=30ceb4e46a8e39992905276b6&amp;id=3b686f7b45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate subscribe-form form-inline" target="_blank" novalidate>
                 <div class="form-group">
-                    <label class="sr-only" for="semail">Your Email</label>
-                    <input type="text" id="semail" class="form-control email-field" placeholder="Enter your email address" name="email" required="" aria-required="true">
-                    <button type="submit" class="btn btn-primary">Subscribe</button>  
-                </div>                              
-            </form>
-        </div><!--//container-->
-    </div><!--//blog-signup-block-->
+                 <input type="email" value="" name="EMAIL" class="email form-control email-field" id="mce-EMAIL" placeholder="Entrer votre adresse email" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_30ceb4e46a8e39992905276b6_3b686f7b45" tabindex="-1" value="">
+                    </div>
+                    <input type="submit" value="Envoyer" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                </div>
+               </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!--End mc_embed_signup-->
 
            
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
+       <!-- ******FOOTER****** --> 
+    <footer class="footer footer-custom">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-xs-6 col-md-3">
-                    <div class="footer-col-inner">
-                        <h3 class="col-title">About</h3>
-                        <ul class="footer-menu list-unstyled">
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Jobs</a> <label class="label label-new">We're hiring</label></li>
-                            <li><a href="#">Press</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div><!--//footer-col-inner-->
-                </div><!--//footer-col-->
-                <div class="footer-col col-xs-6 col-md-3">
-                    <div class="footer-col-inner">
-                        <h3 class="col-title">Product</h3>
-                        <ul class="footer-menu list-unstyled">
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Tutorials</a></li>
-                            <li><a href="#">Support Center</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Customers</a></li>
-                        </ul>
-                    </div>
-                </div><!--//footer-col-->
-                <div class="footer-col col-xs-6 col-md-3">
-                    <div class="footer-col-inner">
-                        <h3 class="col-title">Useful Links</h3>
-                        <ul class="footer-menu list-unstyled">
-                            <li><a href="#">Sign up</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Become our partner</a></li>
-                            <li><a href="#">FAQs</a></li>
-                        </ul>
-                    </div>
-                </div><!--//footer-col-->
-                <div class="footer-col col-xs-6 col-md-3">
-                    <div class="footer-col-inner">
-                        <h3 class="col-title">Legal</h3>
-                        <ul class="footer-menu list-unstyled">
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Terms of Services</a></li>
-                            <li><a href="#">Policies</a></li>
-                        </ul>
-                    </div>
-                </div><!--//footer-col-->
-            </div><!--//row-->
-            <div class="divider"></div>
-            <div class="footer-bottom text-center">
-                <ul class="social-media list-inline">
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                    
-                </ul>
-    
-                <small class="copyright">Template Copyright @ <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small> 
-            </div>
-        </div><!--//container-->
-    </footer><!--//footer-->
+      <div class="col-md-12">
+        <ul class="links">
+          <li><span><a href="index.html">We Recruit © 2016</a></span></li>
+          <li class="link">
+            <a href="about.html" style="margin-left: 10px;margin-right: 10px">Qui sommes-nous ?</a>
+            <a href="about.html" style="margin-right: 10px">Recrutement</a>
+            <a href="blog.html" style="margin-right: 10px">Blog</a>
+            <a href="https://www.iubenda.com/privacy-policy/7911892/full-legal" style="margin-right: 10px" class="iubenda-nostyle no-brand iub-legal-only iubenda-embed" title="Privacy Policy">Mentions Légales</a>
+            <a href="mailto:bonjour@werecruit.fr" style="margin-right: 10px">Contactez-nous</a>
+          </li>
+          <li style="text-align: right;" class="small-hidden">
+            <ul class="social-links">
+              <li>
+                <div class="social facebook">
+                  <a href="https://www.facebook.com/WeRrecruit1/" target="_blank">
+                    <img alt="Facebook" class="img-responsive logo-social" src="assets/images/facebook.png" width="15" height="16">
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="social twitter">
+                  <a href="https://twitter.com/We_Recruit_" target="_blank">
+                    <img alt="Twitter" class="img-responsive logo-social" src="assets/images/twitter.png" width="15" height="16">
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="social linkedin">
+                  <a href="https://www.linkedin.com/company/werecruit-io" target="_blank">
+                    <img alt="Linked In" class="img-responsive logo-social" src="assets/images/linkedin.png" width="15" height="16">
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    </footer>
     
     <!-- Login Modal -->
     <div class="modal modal-auth modal-login" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
